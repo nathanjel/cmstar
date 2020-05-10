@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link href="template/nth/css/master.css?version=27042020002" type="text/css" rel="stylesheet" charset="utf-8"/>
+        <link href="template/nth/css/prettyPhoto.css" type="text/css" rel="stylesheet" media="screen" title="prettyPhoto main stylesheet" charset="utf-8"/>
+        <script src="template/_shared_/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="i18n/i18n.js?lang=LANGCODE" type="text/javascript" charset="utf-8"></script>
+        <script src="template/_shared_/i18n.js" type="text/javascript"></script>
+        <script src="template/_shared_/proc.js?version=27032019001" type="text/javascript" charset="utf-8"></script>
+        <script src="template/nth/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+        <script src="template/nth/js/tpl.js" type="text/javascript" charset="utf-8"></script>
+        <title>CMS LOGIN</title>
+        <script type="text/javascript">
+        function initialize() {
+        var r0 = $('#logininp');
+        if (r0.first().val() == '') {
+        r0.first().focus();
+        }
+        }
+        $(window).load(function() {
+        initialize();
+        })
+        </script>
+    </head>
+    <body>
+        <div class="login-form">
+            <div class="logo">
+                <img src="../__cms/logo.png" alt=""/>
+            </div>
+            <div id="lo-tresce">
+                <div id="message" style="display: none;"> </div>
+            </div>
+            <div id="lo-tresc">
+                <form action="./" method="post" name="lform" id="lform">
+                    <input type="hidden" name="actioncode" value="none"/>
+                    <div id="logon" class="logon">
+                        <input type="text" name="login" id="logininp" class="loginInput input" placeholder="Login..."/>
+                        <input type="password" name="pass" class="loginInput input" placeholder="Hasło..."/>
+                        <div id="langselect" class="langs">
+                            <select id="t-lang-select" style="width:100px;" name="guilang" class="text input" value=""></select>
+                        </div>
+                        <a style="cursor: pointer;" onclick="document.lform.actioncode.value='go'; document.lform.submit()" class="input formSubmit">Zaloguj</a>
+                        <br>
+                        <a class="logon_redir_1 input formSubmit" id="logon_redir_1" style="cursor: pointer;" href="GOOGLE_LINK_HREF">Zaloguj z LOGON_REDIR_1_NAME</a>
+                    </div>
+                    <div id="newpass" class="newpass">
+                        <input type="password" name="passn1" class="loginInput input" placeholder="Nowe hasło..."/>
+                        <input type="password" name="passn2" class="loginInput input" placeholder="Powtórz nowe hasło..."/>
+                        <a style="cursor: pointer;" onclick="document.lform.actioncode.value='newpass'; document.lform.submit()" class="input formSubmit">Zmień hasło</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        /* TEMPLATE_JS_WILL_GO_HERE */
+        $(document).ready(function(){
+            $('.input').keypress(function (e) {
+                if (e.which == 13) {
+                    e.preventDefault();
+                    document.lform.actioncode.value='go';
+                    document.lform.submit()
+                }
+            });
+        });
+        /* ]]> */
+        </script>
+    </body>
+</html>

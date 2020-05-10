@@ -1,0 +1,46 @@
+# Ensure fast loading of pages - by smart expires
+<IfModule mod_expires.c>
+Header set cache-control: public
+ExpiresActive on
+ExpiresDefault "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/x-javascript "access plus 1 month"
+ExpiresByType video/ogg "access plus 1 year"
+ExpiresByType audio/ogg "access plus 1 year"
+ExpiresByType video/mp4 "access plus 1 year"
+</IfModule>
+
+RewriteEngine on
+
+RewriteBase /
+RewriteRule ^(pma|phpmyadmin)/$ $1/index.php
+# is it our masterfile ?
+RewriteRule ^__(index|pc|r[if]).php - [S=8]
+
+# do not allow access to system files
+RewriteRule ^(__bundle|__phplibs|_templates|composer.|README.md|sftp-config.json) error [F]
+
+# if file does exist
+RewriteCond %{REQUEST_FILENAME} -f
+# skip the next rules
+RewriteRule .? - [NS,S=6]
+
+# resource request from subdir?
+RewriteRule ^([^/]+/)?__f/(.*)$ __rf.php?key=$2 [NS,L]
+RewriteRule ^([^/]+/)?__i/(.*)$ __ri.php?$2 [NS,L]
+RewriteRule ^([^/]+/)?__c/(.*)$ __pc.php?$2 [NS,L]
+
+# worker ?
+RewriteRule ^run_mailer_worker$ __mm.php [NS,L]
+
+# subdir (eg for lang version) masking existing file ?
+RewriteCond $1 -F
+RewriteRule ^[^/]+/(.+)$ $1 [NS,L]
+
+# redirect for internal processing
+# with hacks for some webservers
+RewriteRule ^(.*)$ __index.php?$1&%{QUERY_STRING} [NS,E=HTTP_AUTHORIZATION:%{HTTP:Authorization},E=HTTP_PRAGMA:%{HTTP:Pragma},E=HTTP_CACHE_CONTROL:%{HTTP:Cache-Control},L]

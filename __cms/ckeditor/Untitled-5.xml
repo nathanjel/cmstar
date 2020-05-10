@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- utf8 file óąśłćżńęĘŁÓĄŚĄĆŻ -->
+
+<cmsoptions>
+  <options merge="true" site="1">
+    <option name="xmlrpc_ping" level="**" value="true" />
+    <option name="xmlrpc_ping_url" level="**" value="http://api.moreover.com/RPC2;http://api.my.yahoo.co.jp/RPC2;http://api.my.yahoo.com/RPC2;http://bblog.com/ping.php;http://blog.goo.ne.jp/XMLRPC;http://blogpeople.net/servlet/weblogUpdates;http://blogsearch.google.com/ping/RPC2;http://blogsearch.google.de/ping/RPC2;http://blogsearch.google.pl/ping/RPC2;http://focuslook.com/ping.php;http://hamo-search.com/ping.php;http://j-ranking.net/ping.cgi;http://ping.bitacoras.com;http://ping.blog360.jp/rpc;http://ping.bloggers.jp/rpc/;http://ping.blogoon.net;http://ping.blogs.yandex.ru/RPC2;http://ping.fc2.com;http://ping.feedburner.com;http://ping.kutsulog.net;http://ping.myblog.jp;http://ping.namaan.net/rpc;http://ping.syndic8.com/xmlrpc.php;http://ping.weblogalot.com/rpc.php;http://ping.wordblog.de;http://pinger.blogflux.com/rpc;http://r.hatena.ne.jp/rpc;http://rpc.blogrolling.com/pinger/;http://rpc.pingomatic.com;http://rpc.reader.livedoor.com/ping;http://rpc.tailrank.com;http://rpc.technorati.com/rpc/ping;http://rpc.weblogs.com/RPC2;http://services.newsgator.com/ngws/xmlrpcping.aspx;http://www.blogpeople.net/servlet/weblogUpdates;http://www.focuslook.com/ping.php;http://www.syndic8.com/xmlrpc.php;http://www.xianguo.com/xmlrpc/ping.php;http://xping.pubsub.com/ping/" />
+    <option name="dbe" level="**" value="true" />
+    <option name="template" level="**" value="index.html" />
+    <option name="template" level="10" value="index.html" />
+    <option name="template" level="28" value="smilebox.html" />
+    <option name="template" level="29" value="offer.html" />
+    <option name="template" level="30" value="gallery.html" />
+    <option name="template" level="30/*" value="galery-single.html" />
+    <option name="template" level="31" value="contact.html" />
+    <option name="abuse_protection" level="**" value="true" />
+    <option name="menu_exclusion_list" level="**" value="30/*" />
+    <!-- bez menu po lewej -->
+    <option name="changelog" value="*" level="**" />
+    <option name="route" value="" level="**" />
+    <option name="route_hold" value="false" level="**" />
+    <option name="route_hold" value="true" level="10" />
+    <option name="route_hold" value="true" level="28" />
+    <option name="route_hold" value="true" level="29" />
+    <option name="route_hold" value="true" level="30" />
+    <option name="route_hold" value="true" level="30/*" />
+    <option name="route_hold" value="true" level="31" />
+    <option name="fckeditor_bodyid" level="**" value="right_column" />
+    <option name="fckeditor_bodyclass" level="**" value="main-container" />
+    <option name="fckeditor_editorcss" level="**" value="" />
+    <option name="candelete" level="**" value="false" />
+    <option name="createchild" level="**" value="false" />
+    <option name="createsibling" level="**" value="false" />
+    <option name="updown" level="**" value="true" />
+    <option name="editname" level="**" value="true" />
+    <option name="updown" level="*" value="false" />
+    <option name="createchild" level="*/*/*" value="false" />
+    <option name="candelete" level="10" value="false" />
+    <option name="createchild" level="10/32" value="true" />
+    <option name="createchild" level="10/33" value="true" />
+	<option name="createchild" level="10/34" value="true" />
+    <option name="createchild" level="30" value="true" />
+    <option name="createsibling" level="10/32/*" value="true" />
+    <option name="createsibling" level="10/33/*" value="true" />
+	<option name="createsibling" level="10/34/*" value="true" />
+    <option name="createsibling" level="30/*" value="true" />
+    <option name="candelete" level="10/32/*" value="true" />
+    <option name="candelete" level="10/33/*" value="true" />
+	<option name="candelete" level="10/34/*" value="true" />
+    <option name="candelete" level="30/*" value="true" />
+    <option name="fpccancel" level="**" value="" />
+    <option name="fpc" level="**" value="true" />
+    <option name="fpcttl" level="**" value="15" />
+    <option name="fpcget" level="**" value="szukaj,p" />
+    
+	
+	<option name="graphs" level="10/32/*" value="pr_" />
+    <option name="pr_graphparams" level="10/32/*" value="1170,430,SC,,80,Zdjecie,,Zdjecie," />
+    <!-- wspólne opcje stron -->
+    <option name="hascontent" level="**" value="false" />
+    <option name="fieldtable_a" level="**" value="
+			Cechy strony,,tabspacer;
+			Widoczność,,spacer;
+			Widoczna,published,checkbox;" />
+    <option name="fieldtable_a" level="*" value="
+			Cechy strony,,tabspacer;
+			Widoczność,,spacer;
+			Widoczna,published,checkbox;
+			Główne menu,,spacer;
+			Link w głównym menu,fmainmenu,checkbox;
+			"
+			 />
+    
+    <!-- galeria na wszystko!-->
+    <option name="graphparams" level="**"  value="1920,1200,ASSF,,60,Zdjęcie,Opis / Plik,Galeria," />
+    <option name="pictures" level="**" value="0" />
+    
+    <!-- główna -->
+    <option name="hascontent" level="10" value="false" />
+    <option name="fieldtable" level="10" value="
+             Hasła,,tabspacer;
+			 	Duże nad sliderem,,spacer;
+					Treść,f_mainclaim,text;
+				Przy BOOK NOW,,spacer;	
+					Treść,f_book,text;
+			Social Media,,tabspacer;
+				Linki do profili,,spacer;
+				Facebook,f_fb,text;
+				Google,f_go,text;
+				Twitter,f_tw,text;
+			
+			 " />
+    
+    <!-- slider -->
+    
+    <option name="fieldtable" level="10/32/*" value="
+             Dane slajdu,,tabspacer;
+			 	Napis,,spacer;
+					Treść,f_text,textarea(5:20:editor);
+					Link slajdu,f_url,text;
+					" />
+    
+    
+    <!-- boksy -->
+    
+    <option name="fieldtable" level="10/34/*" value="
+             Dane slajdu,,tabspacer;
+			 	Treść,,spacer;
+					Tytuł,f_title,text;
+					Treść,f_text,textarea(5:20:editor);
+			 " />
+   <!-- <option name="graphs" level="10/34/*" value="pr_" />
+    <option name="pr_graphparams" level="10/34/*" value="64,64,SC,,100,Ikona,,Ikona," /> -->
+    
+    <!-- klienci -->
+	<!--
+    <option name="graphs" level="10/33/*" value="pr_" />
+    <option name="pr_graphparams" level="10/33/*" value="114,64,SC,,100,Logo,,Logo," /> -->
+    
+    <!-- smilebox -->
+    
+    <option name="fieldtable" level="28" value="
+             Treść strony,,tabspacer;
+			 	Treść,,spacer;
+					Lead,f_lead,text;
+					Treść A,f_texta,textarea(5:20:editor);
+					Treść B,f_textb,textarea(5:20:editor);
+					Treść C,f_textc,textarea(5:20:editor);
+					Treść D,f_textd,textarea(5:20:editor);
+					Treść E,f_texte,textarea(5:20:editor);
+			 " />
+    <option name="graphparams" level="28"  value="570,400,ASSF,,60,Zdjęcie,Opis / Plik,Slider," />
+    <option name="pictures" level="28" value="10" />
+    <!-- oferta -->
+    <option name="fieldtable" level="29" value="
+             Dane slajdu,,tabspacer;
+			 	Treść,,spacer;
+					Tabela,f_table,textarea(5:20:editor);
+					Kroki,f_steps,textarea(5:20:editor);
+			 " />
+    <option name="fieldtable" level="29/*" value="
+             Dane dodatki,,tabspacer;
+			 	Treść,,spacer;
+					Tytuł,f_title,text;
+			 " />
+    <option name="pictures" level="29/*" value="10" />
+    
+    <!-- galerie -->
+    <option name="fieldtable" level="30/*" value="
+             Dane galerii,,tabspacer;
+			 	Dane galerii,,spacer;
+					Tytuł,f_title,text;
+					Hasło,f_pass,text;
+					Kategoria,f_cat,select(list:event/wedding);
+					
+			 " />
+    <option name="pictures" level="30/*" value="100" />
+    
+    <!-- kontakt -->
+    
+    <option name="fieldtable" level="31" value="
+             Dane kontaktowe,,tabspacer;
+			 	Dane kontaktowe,,spacer;
+					Adres e-mail,f_mail,text;
+					
+					
+			 " />
+  </options>
+</cmsoptions>

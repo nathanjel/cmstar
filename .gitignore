@@ -1,0 +1,14 @@
+tmp
+*sftp-config.json
+*project.sublime*
+_images/*
+_cron/.*
+__cms/_cache/c/*
+__cms/_cache/f/*
+__cms/_cache/i/*
+__cms/errorlog.txt
+__cms/config/_/cms_config_db.php
+__cms/config/_/cms_config_customer.php
+__cms/data/*.dat
+__cms/data/_master.xml.backup_
+!*/.keep

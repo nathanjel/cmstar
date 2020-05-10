@@ -1,0 +1,27 @@
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+Header append Vary User-Agent env=!dont-vary
+
+RewriteEngine on
+
+RewriteBase /__cms
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule .htaccess error [F,L]
+
+RewriteRule ^$ index.php?%{QUERY_STRING}&topsecret1234 [L]
+RewriteRule ^([0-9]+\.)?([0-9\-]+)(\.[0-9]+)?$ index.php?sitex=$1&pathx=$2&langx=$3&%{QUERY_STRING}&topsecret1234 [L]
+RewriteRule ^([0-9]+\.)([0-9\-]+)(\.[0-9]+)\/(.*)$ ajax.php?sitex=$1&pathx=$2&langx=$3&command=$4&%{QUERY_STRING}&topsecret1234 [L]
+RewriteRule ^i18n/i18n.js$ i18n/i18njs.php?%{QUERY_STRING}&topsecret1234 [L]
+
+RewriteRule ^/?(_|_cache|data|externals|config/_)/ error [F,L]
+
+RewriteCond %{QUERY_STRING} !^.*&topsecret1234$
+RewriteCond %{REQUEST_URI} !kcfinder
+RewriteCond %{REQUEST_URI} !i18n/i18njs.php
+RewriteCond %{REQUEST_URI} !__cms/initialize.php$
+RewriteRule ^.*\.php$ error [F,L]
+
+RewriteRule ^.*\.dat$ error [F,L]

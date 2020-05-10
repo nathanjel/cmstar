@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- utf8 file óąśłćżńęĘŁÓĄŚĄĆŻ -->
+
+<cmsoptions>
+    <options merge="true" site="*">
+        <!-- world and site-wise options -->
+        <!-- local options for smooth transfer from dev to next stages -->
+
+		<option name="child_types" level="**" value="**" />
+		<option name="typename" level="**" value="domyślny" />
+		 
+        <option name="abuse_protection" level="**" value="true" />
+
+        <option name="newelement_name" level="**" value="Nowy element"/>
+        <option name="newelement_text" level="**" value="&lt;p&gt;Wartość początkowa nowego elementu&lt;/p&gt;"/>
+
+        <option name="fckeditor_bodyid" level="**" value=""/>
+        <option name="fckeditor_bodyclass" level="**" value=""/>
+        <option name="fckeditor_editorcss" level="**" value=""/>
+
+        <option name="back_to_referer" level="**" value="false" />
+
+		<!-- site map -->
+		
+		<option name="sitemap" level="**" value="true" />
+		<option name="sitemap_gz" level="**" value="true" />
+		<option name="sitemap_file_pattern" level="**" value="sitemap-{lang}.xml.gz" />
+		
+		<option name="sitemap_include_paths" level="**" value="**" />
+		<option name="sitemap_exclude_paths" level="**" value="" />
+		
+		<option name="sitemap_ping_url" level="**" value="http://www.google.com/webmasters/sitemaps/ping?sitemap={url};" />        
+		<option name="sitemap_ping_url" level="**" value="http://search.yahooapis.com/SiteExplorerService/V1/updateNotification?appid=YahooDemo&amp;url={url};" />
+		<option name="sitemap_ping_url" level="**" value="http://www.bing.com/webmaster/ping.aspx?siteMap={url};" />
+		
+		<!-- xml rpc notification for weblogUpdate ping -->
+		
+		<option name="xmlrpc_ping" level="**" value="false" />
+		<option name="xmlrpc_ping_url" level="**" value="" />
+		<option name="xmlrpc_ping_name_entry" level="**" value="10" />
+		<option name="xmlrpc_ping_name_field" level="**" value="name" />
+		<option name="xmlrpc_ping_name_pattern" level="**" value="{name}" />
+		
+        <!-- generic -->
+        
+        <option name="guiignores" level="**" value=""/>
+        <option name="guihides" level="**" value=""/>
+
+        <option name="hidesave" level="**" value="false"/>
+        <option name="editname" level="**" value="true"/>
+        <option name="hascontent" level="**" value="true"/>
+        <option name="candelete" level="**" value="true"/>
+
+        <option name="editor" level="**" value="true"/>
+
+        <option name="updown" level="**" value="true"/>
+        <option name="createchild" level="**" value="true"/>
+        <option name="picture" level="**" value="0"/>
+        <option name="pictures" level="**" value="0"/>
+        
+        <option name="fieldtable_b" level="**" value=""/>
+        <option name="fieldtable_a" level="**" value=""/>
+        
+        <option name="fieldtable" level="**" value=""/>
+        <option name="fieldtable_" level="**" value=""/>
+        <option name="fieldtable__" level="**" value=""/> 
+
+        <option name="name_display_in_menu_if_empty" level="**" value="&lt; nazwa pusta &gt;"/>
+
+        <option name="contentlabel" level="**" value="Długi opis"/>
+        <option name="fieldtablename" level="**" value="Dane dodatkowe"/>
+        <option name="phototabname" level="**" value="Galeria"/>
+        <option name="graphtabname" level="**" value="Moduły graficzne"/>
+        
+        <option name="pathtlabel" level="**" value="Link do tego elementu"/>
+        
+        <option name="sluglabel" level="**" value="Własny link"/>
+        <option name="datelabel" level="**" value="Ostatnia zmiana"/>
+        <option name="codelabel" level="**" value="Kod (techniczny)"/>
+        <option name="namelabel" level="**" value="Nazwa elementu"/>
+        <option name="photolabel" level="**" value="Obraz (PNG/JPG)"/>
+        <option name="photolabellabel" level="**" value="Opis obrazu"/>
+
+        <option name="display_in_menu" level="**" value="true"/>
+
+        <option name="dbechildlistsortfields" level="**" value="name" />
+
+        <option name="expires_timeout" level="**" value="86400"/>
+        
+        <option name="message_a01" level="**" value="AWS - Błąd połączenia: &amp;0"/>
+        <option name="message_a02" level="**" value="AWS - Zatrzymuję instancję &amp;0"/>
+        <option name="message_a03" level="**" value="AWS - Uruchamiam instancję &amp;0"/>
+
+        <option name="message_911" level="**" value="Wczytany plik nie jest poprawnym plikiem językowym dla CMS"/>
+        <option name="message_912" level="**" value="Zapisano dane tłumaczenia dla kodu języka [&amp;0]"/>
+        <option name="message_913" level="**" value="Brak uprawnień do zmiany pliku &amp;0"/>
+        <option name="message_914" level="**" value="Niepoprawny kod języka [&amp;0]"/>
+        
+        <option name="message_910" level="**" value="Folder cache &amp;0 wyczyszczony"/>
+        
+        <option name="message_901" level="**" value="Link do tego elementu nie jest unikalny, to może powodować problemy! Proszę rozważyć zmiany nazw lub zdefiniowanie własnych linków."/>
+		<option name="message_902" level="**" value="Tworzenie kopii zapasowej nie powiodło się. Sprawdź dostępne miejsce na dysku. Kopię zapasową możesz wykonać ręcznie przy użyciu FTP oraz narzędzi administracyjnych bazy danych."/>        
+		<option name="message_903" level="**" value="Aktualizacja/odtworzenie nie powiodło się. Możesz wykonać tę operację ręcznie przy użyciu FTP oraz narzędzi administracyjnych bazy danych."/>
+		<option name="message_904" level="**" value="Aktualizacja/odtworzenie udane."/>
+		
+		<option name="message_905" level="**" value="Błąd tworzenia map witryny. Sprawdź uprawnienia i miejsce na dysku."/>
+		<option name="message_906" level="**" value="Utworzono mapy witryny dla wszystkich języków."/>
+		<option name="message_907" level="**" value="Wywołanie serwera &amp;0 zakończone niepowodzeniem."/>
+		<option name="message_908" level="**" value="Rozgłoszenie mapy witryny na serwerze &amp;0 udane."/>
+		<option name="message_909" level="**" value="&quot;Pingowanie&quot; serwera &amp;0 udane."/>
+        
+        <option name="message_920" level="**" value="Wersja pliku master.xml jest już 1.1 bądź wyższa. Konwersja do wersji 1.1 nie może zostać wykonana."/>
+        <option name="message_921" level="**" value="Konwersja pliku master.xml do wersji 1.1 zakończona. Sprawdź funkcjonalności serwisu."/>
+        <option name="message_922" level="**" value="Konwersja pliku master.xml do wersji 1.1 nieudana. Serwis pozostanie przy bieżącej wersji pliku. Techniczny komunikat błędu: &amp;0"/>
+        <option name="message_923" level="**" value="Konwersja pliku master.xml do wersji 1.1 nie jest dostępna ponieważ została wyłączona przez administratora."/>
+        
+        <option name="message_930" level="**" value="Wykonano defragmentację"/>
+        
+        <option name="message_940" level="**" value="Błędne/nadmiarowe daty w polu &amp;0 zostały skorygowane/usunięte."/>
+        <option name="message_941" level="**" value="Relacja &amp;0 przyjmuje maksymalnie &amp;1 elementów. Zostawiono tylko dozwoloną liczbę elementów."/>
+        
+        <option name="message_950" level="**" value="Błąd odczytu pliku z konfiguracją dostępu."/>
+        <option name="message_951" level="**" value="Niepoprawne poprzednie hasło."/>
+        <option name="message_952" level="**" value="Nowe hasło i jego powtórzenie nie zgadzają się."/>
+        <option name="message_953" level="**" value="Błąd zapisu pliku z konfiguracją dostępu. HASŁO NIE ZMIENIONE!"/>
+        <option name="message_954" level="**" value="Zmiana hasła przebiegła poprawnie. Nowe hasło obowiązuje od najbliższego logowania."/>
+        <option name="message_956" level="**" value="Nowe hasło nie może być puste."/>
+        <option name="message_957" level="**" value="Błąd. Nowe hasło zawiera znaki spoza obszaru kodowania UTF8."/>
+        <option name="message_958" level="**" value="Błąd. Nowe hasło musi być krótsze niż 99 znaków."/>
+        
+        <option name="message_960" level="**" value="Niewłaściwa składnia pliku opcji XML - odrzucony."/>
+        <option name="message_967" level="**" value="Niewłaściwa składnia PHP w danych konfiguracji - odrzucony. Komunikat techniczny : &amp;0"/>
+        <option name="message_961" level="**" value="Nowe ustawienia witryn załadowane poprawnie."/>
+        <option name="message_968" level="**" value="Nowe ustawienia konfiguracji klienta załadowane poprawnie."/>
+        <option name="message_962" level="**" value="Błąd operacji na pliku. Nowe ustawienia nie załadowane."/>
+        
+        <option name="message_964" level="**" value="Szablon zapisany poprawnie."/>
+        <option name="message_963" level="**" value="Błąd operacji na pliku. Szablon pozostał bez zmian."/>
+
+        <option name="message_965" level="**" value="Import zdjęcia poprawny."/>
+        <option name="message_966" level="**" value="Wczytanie zdjęcia nieudane. Sprawdź format oraz wymiary pliku &amp;0."/>
+        <option name="message_969" level="**" value="Podana ścieżka &amp;0 jest niewłaściwa lub nie wskazuje obrazka. Proszę podać ścieżkę względną do folderu &amp;1."/>
+        <option name="message_975" level="**" value="Ścieżka &amp;0 wskazuje na poprawny obrazek."/>
+                
+        <option name="message_970" level="**" value="Wysyłka testowego newslettera."/>
+        <option name="message_971" level="**" value="Zakolejkowano wysłanie newslettera dla &amp;0 subskrybent(a/ów)."/>
+        <option name="message_972" level="**" value="Treść newslettera nie może być pusta."/>
+        <option name="message_973" level="**" value="Brak aktywnych subskrybentów."/>
+        <option name="message_974" level="**" value="Nie podano tematu."/>
+        
+        <option name="message_980" level="**" value="Pusta lista adresów. Nie dokonano żadnych zmian."/>
+        <option name="message_981" level="**" value="Dodano / aktywowano &amp;0 subskrybent(a/ów)."/>
+        <option name="message_982" level="**" value="Usunięto &amp;0 subskrybent(a/ów)."/>
+        <option name="message_983" level="**" value="Deaktywowano &amp;0 subskrybent(a/ów)."/>
+        
+        <option name="message_990" level="**" value="Zmiana/usunięcie użytkownika &amp;0 nie jest możliwe."/>
+        <option name="message_991" level="**" value="Użytkownik o nazwie &amp;0 już istnieje. Nie można nadpisać."/>
+        <option name="message_992" level="**" value="Hasło nie może być puste."/>
+        <option name="message_993" level="**" value="Zapisano poprawnie."/>
+        <option name="message_994" level="**" value="Nazwa użytkownika nie może być pusta."/>
+        <option name="message_995" level="**" value="Usunięto użytkownika &amp;0."/>
+        <option name="message_996" level="**" value="Masz uprawnienia jedynie do przeglądu tego elementu."/>
+        <option name="message_997" level="**" value="Brak uprawnień - nie masz dostępu do tej funkcji."/>
+        <option name="message_998" level="**" value="Nie masz uprawnień do wykonania tej operacji na tym elemencie."/>
+        <option name="message_999" level="**" value="Naruszenie protokołu bezpieczeństwa."/>
+              
+        <option name="menu_inclusion_list" level="**" value="**" />
+        <option name="menu_exclusion_list" level="**" value="5/*" />
+    </options>
+    
+    <options merge="true" site="9999">
+    
+    	<option name="hascontent" level="**" value="false"/>
+    	<option name="sitemap" level="**" value="false" />
+        
+        <option name="fieldtablename" level="**" value="Ustawienia" />
+        <option name="site_lang" level="**" value="PL"/>
+    
+        <option name="datelabel" level="**" value="Wersja panelu"/>
+        <option name="codelabel" level="**" value="ID funkcji"/>
+        <option name="namelabel" level="**" value="Funkcja panelu"/>
+        <option name="editname" level="**" value="false"/>
+        <option name="hidesave" level="**" value="true"/>
+
+        <option name="fieldtable" level="20" value="
+        Opcje autoryzacji,,tabspacer;
+            Logowanie z Google,,spacer;
+                Włącz logowanie z google,flge,checkbox;
+                Identyfikator klienta,flgid,text;
+                Tajny klucz klienta,flgsec,text;
+        "/>
+        <option name="hidesave" level="20" value="false"/>
+              
+        <option name="fieldtable" level="5" value="
+        Ustawienia,,tabspacer;
+            Używaj standardowej funkcji mail() do wysyłki korespondencji,,spacer;
+                mail(),fusemail,checkbox;
+            Serwer wysyłki poczty e-mail (podstawowy),femails,spacer;
+                Nazwa hosta,femailh,text;
+                Użytkownik,femailu,text;
+                Hasło,femailp,text;
+                Autoryzacja,femaila,select(9999:5/*:_lang);
+            Domyślne dane nadawcy (podstawowy),fsender,spacer;
+                Adres e-mail nadawcy,fsmail,text;
+                Nazwa własna nadawcy,fsname,text;
+                Adres zwrotny nadawcy,fsrm,text;
+            Serwer wysyłki poczty e-mail (dodatkowy),faemails,spacer;
+                Nazwa hosta,faemailh,text;
+                Użytkownik,faemailu,text;
+                Hasło,faemailp,text;
+                Autoryzacja,faemaila,select(9999:5/*:_lang);
+            Domyślne dane nadawcy (dodatkowy),fasender,spacer;
+                Adres e-mail nadawcy,fasmail,text;
+                Nazwa własna nadawcy,fasname,text;
+                Adres zwrotny nadawcy,fasrm,text;
+        "/>
+        <option name="hidesave" level="5" value="false"/>        
+       
+        <option name="cms_gui" level="35" value="cms_db1_gui"/>
+        <option name="cms_gui" level="40" value="cms_lic1_gui"/>
+        <option name="cms_gui" level="30/1" value="cms_opt_gui"/>
+        <option name="cms_gui" level="30/2" value="cms_tp_gui"/>
+        <option name="cms_gui" level="20/2" value="cms_pass_gui"/>
+        <option name="cms_gui" level="20/1" value="cms_um_gui"/>
+        <option name="cms_gui" level="5" value="cms_mail_gui"/>
+        
+        <option name="deftab" level="**" value="data" />
+        
+        <option name="hidesave" level="10/1" value="false"/>
+                
+        <option name="fieldtable_" level="20" value="
+            Ustawienia logowania,,
+        "/>
+        
+    </options>
+    
+</cmsoptions>

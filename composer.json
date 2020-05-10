@@ -1,0 +1,13 @@
+{
+    "require": {
+        "spipu/html2pdf": "^5.0",
+        "nuovo/spreadsheet-reader": ">= 0.5.11",
+        "aws/aws-sdk-php": "^3.87",
+        "phpmailer/phpmailer": "~6.0",
+        "google/apiclient": "^2.0"
+    },
+
+    "autoload": {
+        "psr-4": { "": ["__cms/_", "__cms/_/caches", "__cms/_/db", "__cms/_/i18n", "__cms/_/lib", "__cms/_/xml", "__cms/config/_", "__cms/externals", "__cms/i18n"] }
+    }
+}

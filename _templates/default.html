@@ -1,0 +1,3 @@
+{if:_GET/action,==,#}{if:_SERVER/HTTPS,!=,#}{set:secure,#s}{else:}{set:secure,#}{endif:}
+{concat:ref,#http,secure,#://,_SERVER/SERVER_NAME,#/,#__cms/}
+{redirect:ref}{endif:}

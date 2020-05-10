@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- utf8 file óąśłćżńęĘŁÓĄŚĄĆŻ -->
+
+<cmsoptions>
+  <options merge="true" site="1">
+
+    <option name="rules_acceptance_control" level="**" value="26/333" />
+    
+    <option name="sitemap" level="**" value="false" />
+    <option name="xmlrpc_ping" level="**" value="false" />
+    <option name="xmlrpc_ping_url" level="**" value="" />
+    <option name="dbe" level="**" value="true" />
+    <option name="template" level="**" value="default.html" />
+    <option name="abuse_protection" level="**" value="true" />
+    <option name="abuse_protection" level="12944/**" value="false" />
+    <option name="menu_exclusion_list" level="**" value="" />
+	<option name="404" level="**" value="" />
+    <option name="changelog" value="*" level="**" />
+    <option name="route" value="" level="**" />
+    <option name="route_hold" value="true" level="**" />
+    <option name="fckeditor_bodyid" level="**" value="right_column" />
+    <option name="fckeditor_bodyclass" level="**" value="main-container" />
+    <option name="fckeditor_editorcss" level="**" value="" />
+    <option name="candelete" level="**" value="false" />
+    <option name="createchild" level="**" value="false" />
+    <option name="createsibling" level="**" value="false" />
+    <option name="updown" level="**" value="false" />
+    <option name="editname" level="**" value="true" />
+    <option name="updown" level="*" value="false" />
+    <option name="fpccancel" level="**" value="" />
+    <option name="fpc" level="**" value="false" />
+    <option name="fpcttl" level="**" value="" />
+    <option name="fpcget" level="**" value="" />
+    <option name="back_to_referer" level="**" value="false" />
+    <option name="dbechildlistlabel" level="**" value="Lista" />
+    <option name="guiignores" level="**" value=""/>
+    <option name="guihides" level="**" value=""/>
+
+    <option name="dbechildlistnonumbers" level="**" value="false" />
+
+    <option name="fieldtable" level="**" value="
+            Podstawowe,,tabspacer;
+                Opublikowany,published,checkbox;
+    "/>
+
+    <!-- wspólne opcje stron -->
+    <option name="hascontent" level="**" value="true" />
+    <option name="timestamp" level="**" value="true" />
+
+    <!-- grupy rozliczeniowe -->
+    <option name="dbechildlist" level="**" value="true" />
+    <option name="dbechildlistfields" level="**" value="name" />
+
+    <option name="dbechildlistlabels" level="**" value="Nazwa" />
+    <option name="dbechildlistsearchfields" level="**" value="name" />
+    <option name="dbechildlistsortfields" level="**" value="name" />
+    <option name="dbechildlisttypes" level="**" value="text" />
+
+    <option name="candelete" level="**" value="true" />
+    <option name="createchild" level="**" value="true" />
+    <option name="createsibling" level="**" value="true" />
+
+    <option name="typename" level="**" value="element" />
+    <option name="typename" level="*" value="element główny" />
+    <option name="typename-passive" level="**" value="element" />
+    <option name="typename-passive" level="*" value="element główny" />
+    <option name="newelement_name" level="**" value="Element"/>
+    <option name="editname" level="**" value="true"/>
+    <option name="namelabel" level="**" value="Nazwa"/>
+
+
+  </options>
+</cmsoptions>

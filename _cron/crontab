@@ -1,0 +1,15 @@
+# m 	h  		dom 	mon 	dow   	command
+
+# periodic updates
+
+## every working hour
+0    	7-19    *		*       1-5     /opt/cmstar/_cron/perform_updates.sh
+
+# source code updates & replace crontab if changed
+*/5     *       *       *       *       /usr/bin/sudo -u ubuntu /opt/cmstar/_cron/git_update.sh
+
+# cleanup messy updates (daily)
+0       4       *       *       *       /bin/rm -f /tmp/.cmstar.update.in.progress
+
+# archive change history to limit DB size (weekly on sundays)
+0       4       *       *       7       /opt/cmstar/_cron/archive_change_history.sh
